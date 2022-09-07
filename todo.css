@@ -1,0 +1,154 @@
+body{
+    height: 100vh;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5vh 20vh ;
+    color: white;
+}
+
+.submain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 56px;
+    
+}
+.addbutton{
+    font-size: 20px;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+   
+}
+.closebutton{
+    font-size: 20px;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+   
+}
+.addbutton,.closebutton,.addplus:hover{
+    cursor: pointer;
+}
+
+#contfc{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+     background-color: skyblue;
+     width: 15vw;
+    height: 45vh;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 40px 0px 0px 30px;
+        
+    }
+    .newlist{
+    
+        font-weight: normal;
+        color: blue;
+    }
+    .noitem{
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .yesitem{
+    
+        font-size: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .item{
+        margin: 50px;
+    }
+    .item,#addplus,.trash,.main,.tick,.back,.plus:hover{
+        cursor: grab;
+    }
+    #addsymbol{
+        color: blue;
+        font-size: 40px;
+    }
+    .list{
+        display: none;
+        color: red;
+        background-color:white;
+        z-index: 2;
+        position: absolute;
+        left: 40vw;
+        bottom: 40vh;
+        width: 20vw;
+        height: 20vh;
+        font-size: 30px;
+        border: 2px solid tomato;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+       }
+    
+    input{
+        text-align: center;
+        border-radius: 10px;
+        height: 40px;
+        width: 200px;
+        border: 1px solid tomato;
+    } 
+.slide
+{
+    display: none;
+}
+.addplus{
+    color: rgb(22, 156, 83);
+    font-size: 35px;
+    position: relative;
+    top: 30vh;
+    left: 1vw;
+
+}
+.trash{
+    position: relative;
+    top: 30vh;
+    left: 8vw;
+    color: red;
+    font-size: 35px;
+}
+.complete {
+    display: flex;
+    align-items: center;
+}
+.del{
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.tick{
+    color: red;
+}
+.hori{
+    color: red;
+    text-decoration-line: line-through;
+    font-size: 30px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.minusone {
+    display: none;
+}
+.plusone{
+    display: block;
+}
+.sec {
+    display: none;
+}
+
+
+

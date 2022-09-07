@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo.js project</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -
+</head>
+<body>
+
+<div class="main">
+<div class="submain" id="submain">
+    <div class="heading">
+        <h1 class="task">Tasks <span class="newlist">List</span></h1>    
+        <p class="noitem">No items in the todo list</p>
+    </div>
+  <div class="item">
+    <span onclick="Add_item()" class="material-icons  plus" id="addsymbol">
+      add_circle
+  </span>
+    <span class="yesitem">Add Item</span> 
+  </div>
+</div>
+<div class="sec" id="sec">
+  <p class="minus" id="minus">
+      <span class="material-icons back">
+          arrow_back_ios
+      </span>
+  </p>
+  <p class="item">
+      <span class="material-icons  plus" id="addsymbol">
+          add_circle
+      </span>
+  </p>
+</div>
+
+<div class="list ">
+    <div>Add New List</div>    <br>    
+    <input type="text" name="" id="text" placeholder="Add New List">
+    <br>
+    <br>
+    <button  class="addbutton" type="submit">Add</button>
+    <button  class="closebutton" type="submit">Close</button>
+</div>
+
+<div id="contfc"></div>
+
+
+<div class="list aca ">
+  <div>Add New Item</div><br>        
+  <input type="text" name="" id="title1" placeholder="Add New List">
+  <br>
+  <br>
+  <button  class="addbutton" id="adonce" type="submit">Add</button>
+  <button  class="closebutton" type="submit">Close</button>
+</div>
+
+
+<div class="list aca2 ">
+  <div>Add New Item</div>  <br>      
+  <input type="text" name="" id="title2" placeholder="Add New List">
+  <br>
+  <br>
+  <button  class="addbutton" type="submit">Add</button>
+  <button  class="closebutton" type="submit">Close</button>
+</div>
+
+
+<script src="todo.js"></script>
+</body>
+</html>
